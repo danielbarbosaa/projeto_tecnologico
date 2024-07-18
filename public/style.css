@@ -1,0 +1,179 @@
+ 
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+header {  
+    background-color: #333;  
+    color: #fff;  
+    padding: 1em;  
+    text-align: center;  
+}
+
+header li{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+    margin: auto 50px;
+}
+
+header ul {
+    text-align: center;
+    align-items: center;
+}
+
+header a {
+    text-align: center;
+    align-items: center;
+}
+  
+nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: space-between;  
+}  
+  
+nav li {  
+    margin-right: 20px;  
+}  
+  
+nav a {  
+    color: #fff;  
+    text-decoration: none;  
+}  
+  
+main {  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;
+    padding: 2em 10em;  
+}  
+  
+section {  
+    background-color: #f7f7f7;  
+    padding: 2em;  
+    margin-bottom: 20px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+h1, h2 {  
+    color: #333;  
+    margin-top: 0;  
+}  
+  
+button {  
+    background-color: #333;  
+    color: #fff;  
+    border: none;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    cursor: pointer;  
+}
+
+button.select-btn {
+    padding: 8px 10px; 
+    font-size: 14px;
+}
+  
+button:hover {  
+    background-color: #444;  
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #fff;
+    color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+section .application-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section .application-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.application-form input[type="text"], .application-form input[type="email"] {
+    width: 90%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+section .application-form input[type="file"] {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section .application-form button[type="submit"] {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+section .status-update {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section .status-update h2 {
+    margin-top: 0;
+}
+
+section .status-update p {
+    font-size: 18px;
+    color: #666;
+}
+  
+#job-list, #companies-list {
+    list-style: none;  
+    margin: 0;  
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+}  
+  
+#job-list li, #companies-list li {  
+    margin-bottom: 10px;  
+    padding: 10px;  
+    border-bottom: 1px solid #ccc;  
+}  
+  
+#job-list li:hover, #companies-list li:hover {  
+    background-color: #f2f2f2;  
+}  
