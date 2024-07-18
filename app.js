@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Carregar e exibir a lista de vagas
   function loadJobs() {
-    fetch("http://localhost:3000/jobs")
+    fetch("https: jrvagas//.netlify.app/jobs")
       .then((response) => response.json())
       .then((data) => {
         const jobListHTML = data
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Carregar e exibir a lista de empresas
   function loadCompanies() {
-    fetch("http://localhost:3000/companies")
+    fetch("https: jrvagas//.netlify.app/companies")
       .then((response) => response.json())
       .then((data) => {
         const companiesListHTML = data
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     const formData = new FormData(applicationForm);
 
-    fetch("http://localhost:3000/apply", {
+    fetch("https: jrvagas//.netlify.app/apply", {
       method: "POST",
       body: formData,
     })
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Função para buscar vagas com base no termo de busca
   function searchJobs(searchTerm) {
-    fetch(`http://localhost:3000/search?q=${encodeURIComponent(searchTerm)}`)
+    fetch(`https: jrvagas//.netlify.app/search?q=${encodeURIComponent(searchTerm)}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Erro ao buscar vagas");
